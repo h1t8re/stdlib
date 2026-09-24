@@ -324,9 +324,3 @@ char **strsplit_v1(const char *string,const char *spliter)
         array[a] = '\0';
         return array;
 }
-
-	j = 0;
-	}
-	array[k] = '\0';
-	return array;
-}
