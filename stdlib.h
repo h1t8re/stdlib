@@ -18,4 +18,3 @@ int find_string_position(const char *buffer, const char *string, const int posit
 char **strsplit_v1(const char *string, const char *spliter);
 char *strstrip(char *data, char *data_striping);
 char **get_data_by_key(char *data, char *key, char *separator);
-char **get_data_until_end(char *data, char *key, char *end, char *separator);

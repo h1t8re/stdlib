@@ -324,3 +324,87 @@ char **strsplit_v1(const char *string,const char *spliter)
         array[a] = '\0';
         return array;
 }
+
+char *strstrip(char *data, char *data_striping)
+{
+	int i = 0;
+	int j = 0;
+	int k = 0;
+	int c = 0;
+	char *striped_data = (char *)malloc(sizeof(char));
+	char *temporary_mem = (char *)malloc(strlen(data_striping)*sizeof(char));
+	while(data[i] != '\0')
+	{
+		while(j < strlen(data_striping))
+                {
+                        temporary_mem[j] = data[i+j];
+                        j = j +1;
+                }
+                temporary_mem[j] = '\0';
+               	if(strcmp(data_striping, temporary_mem) == 0)
+                {
+			i = i +j;
+		}
+		else{
+			while(c < strlen(data_striping))
+			{
+				striped_data[k] = data[i];
+				k = k +1;
+				i = i +1;
+				c = c +1;
+				striped_data = (char *)realloc(striped_data, (k+1)*sizeof(char));
+			}
+			c = 0;
+		}
+		j = 0;
+	}
+	return striped_data;
+}
+
+/*
+ * get_data_by_key is spliting data by separator..
+ * iterating over each splited_data ..
+ * filling temporary memory array by data from each splited_data
+ * After removing spaces at
+ * the begining of the splited_data chaine of characters
+ * comparing temporary memory with key.. If it s True ..
+ * duplicate the array splited_data into array[k]..
+ * It s returning an array of chaines of characters
+ */
+char **get_data_by_key(char *data, char *key, char *separator)
+{
+	int i = 0;
+	int j = 0;
+	int c = 0;
+	int k = 0;
+	char *temporary_mem = (char *)malloc(strlen(key));
+	char **array = (char **)malloc(sizeof(char *));
+	char **splited_data = strsplit_v1(strdup(data), strdup(separator));
+	while(splited_data[i] != '\0')
+	{
+		while(j < strlen(key))
+                {
+			if(splited_data[i][c+j] == ' ')
+			{
+				c = c +1;
+				continue;
+			}else
+			{
+				temporary_mem[j] = splited_data[i][c+j];
+                        	j = j +1;
+			}
+                }
+                temporary_mem[j] = '\0';
+		if(strcmp(key, temporary_mem) == 0)
+		{
+			array[k] = strdup(splited_data[i]);
+			k = k +1;
+			array = (char **)realloc(array, (k+1)*sizeof(char *));
+			c = 0;
+		}
+		i = i +1;
+		j = 0;
+	}
+	array[k] = '\0';
+	return array;
+}
