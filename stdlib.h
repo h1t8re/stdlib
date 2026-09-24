@@ -16,5 +16,4 @@ double pow(double x, double y);
 int convert_binary_to_integer(int *array, int architecture);
 int find_string_position(const char *buffer, const char *string, const int position);
 char **strsplit_v1(const char *string, const char *spliter);
-char *strstrip(char *data, char *data_striping);
 char **get_data_by_key(char *data, char *key, char *separator);
