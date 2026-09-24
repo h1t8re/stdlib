@@ -325,42 +325,6 @@ char **strsplit_v1(const char *string,const char *spliter)
         return array;
 }
 
-char *strstrip(char *data, char *data_striping)
-{
-	int i = 0;
-	int j = 0;
-	int k = 0;
-	int c = 0;
-	char *striped_data = (char *)malloc(sizeof(char));
-	char *temporary_mem = (char *)malloc(strlen(data_striping)*sizeof(char));
-	while(data[i] != '\0')
-	{
-		while(j < strlen(data_striping))
-                {
-                        temporary_mem[j] = data[i+j];
-                        j = j +1;
-                }
-                temporary_mem[j] = '\0';
-               	if(strcmp(data_striping, temporary_mem) == 0)
-                {
-			i = i +j;
-		}
-		else{
-			while(c < strlen(data_striping))
-			{
-				striped_data[k] = data[i];
-				k = k +1;
-				i = i +1;
-				c = c +1;
-				striped_data = (char *)realloc(striped_data, (k+1)*sizeof(char));
-			}
-			c = 0;
-		}
-		j = 0;
-	}
-	return striped_data;
-}
-
 /*
  * get_data_by_key is spliting data by separator..
  * iterating over each splited_data ..
