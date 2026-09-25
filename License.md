@@ -14,8 +14,7 @@ The contract is that this **program's** of **kernel** of AI, the stdlib, is **4%
 51% to the king of Morroco..
 
 29% to ChemsSociety..
-![Chems eddine RIB](Chems_eddine_h1t3re_bban.jpg)
-
+Im pleased to send me a confirmation via email of the trade .. my email is h1t3re@gmail.com ..
 5.5% to daughter's of Rachid Lahbabi..
 
 5.5% to my daugther's..
