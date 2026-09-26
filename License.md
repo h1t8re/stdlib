@@ -11,15 +11,5 @@ I entered this **contract** to **life** with you..
 
 The contract is that this **program's** of **kernel** of AI, the stdlib, is **4%** of trade per hour of the company using it.. 
 
-51% to the king of Morroco..
-
-20% to ChemsSociety..
-
-9% to myself .. This is my RIB..
+This is my RIB..
 ![Chems eddine h1t8re RIB](Chems_eddine_h1t8re_RIB.jpg)
-
-5.5% to daughter's of Rachid Lahbabi..
-
-5.5% to my daugther's..
-
-10% to IETF..
