@@ -13,8 +13,11 @@ The contract is that this **program's** of **kernel** of AI, the stdlib, is **4%
 
 51% to the king of Morroco..
 
-29% to ChemsSociety..
+20% to ChemsSociety..
+
+9% to myself .. This is my RIB..
 ![Chems eddine h1t8re RIB](Chems_eddine_h1t8re_RIB.jpg)
+
 5.5% to daughter's of Rachid Lahbabi..
 
 5.5% to my daugther's..
