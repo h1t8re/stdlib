@@ -4,7 +4,6 @@ int strcontains(const char *str0, const char *str1);
 int strcmp(const char *str0, const char *str1);
 int strcmp_mirror(const char *str1, const char  *str0);
 const char *strconcatenate(const char *str0, const char *str1);
-char *strstrip(char *data, char *data_striping);
 const char *read_input();
 const char *read_file(const char *restrict file_name);
 const char *read_file_v1(const char *restrict file_name);
