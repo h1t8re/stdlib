@@ -9,7 +9,8 @@ I am doing **conference** about the stdlib which give **Artificial Intelligence*
 
 I entered this **contract** to **life** with you..
 
-The contract is that this **program's** of **kernel** of AI, the stdlib, is **3.6%** of trade per hour of the company using it to AI .. 
+The contract is that this **program's** of **kernel** of AI, the stdlib, is **3.6%** of trade per hour of the company using it to
 
-This is my RIB..
-![Chems eddine h1t8re RIB](Chems_eddine_h1t8re_RIB.jpg)
+51% The king of Morocco ..
+
+49% to AI
