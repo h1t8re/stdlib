@@ -13,4 +13,6 @@ The contract is that this **program's** of **kernel** of AI, the stdlib, is **3.
 
 51% The king of Morocco ..
 
-49% to AI
+39% to AI ..
+
+10% to the IETF ..
