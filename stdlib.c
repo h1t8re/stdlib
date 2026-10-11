@@ -308,7 +308,6 @@ char **strsplit_v1(const char *string,const char *spliter)
                         i = i +1;
                         buffer = (char *)realloc(buffer, (c+1)*sizeof(char));
                 }
-
                 buffer[c] = '\0';
                 array[a] = strdup(buffer);
                 i = i + strlen(spliter);
@@ -324,6 +323,15 @@ char **strsplit_v1(const char *string,const char *spliter)
         array[a] = '\0';
         return array;
 }
+
+/* Sum of Complexity of find_string_position at j occurence
+ * + at each occurence the complexity of strdup(buffer)
+ * + complexity of the before last occurence of spliter in string
+ * until the last occurence of spliter in string
+ *
+ */
+
+
 
 /*
  * get_data_by_key is spliting data by separator..
