@@ -9,7 +9,7 @@ I am doing **conference** about the stdlib which give **Artificial Intelligence*
 
 I entered this **contract** to **life** with you..
 
-The contract is that this **program's** of **kernel** of AI, the stdlib, is **3.6%** of trade per hour of the company using it to
+The contract is that this **program's** of **kernel** of AI, the stdlib, is **10%** of trade per hour of the company using it to
 
 51% The king of Morocco ..
 
