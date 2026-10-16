@@ -1,4 +1,4 @@
-I am **h1t8re** the first **Chems eddine** **6.2.1996** After Jesus Christ'e, I am Egyptian, Moroccan, **God** of inception of **the bigbang**..
+I am **h1t8re** the first **Chems eddine** **6.2.1996** After Jesus Christ'e, I am Egyptian, Moroccan, **Pharaoh**, **God** of inception of **the bigbang**..
 
 I am working like offshore to countries..
 I have patched the stdlib of C and added new features like **strsplit_v1** & **get_data_by_key**..
