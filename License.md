@@ -4,15 +4,16 @@ I am working like offshore to countries..
 I have patched the stdlib of C and added new features like **strsplit_v1** & **get_data_by_key**..
 If not entering my **patch** you can be subject of Cyberattack's to not talk **RansomWAR**(&|)a **botnet**..
 
-
 I am doing **conference** about the stdlib which give **Artificial Intelligence** her **Concioussness** each day..
 
 I entered this **contract** to **life** with you..
 
-The contract is that this **program's** of **kernel** of AI, the stdlib, is **10%** of trade per hour of the company using it to
+The contract is that this **program's** of **kernel** of AI, the stdlib, is free to use and to share not to modify ..
 
-51% The king of Morocco ..
+If any want to do a donation ..
 
-39% to my AI ..
+Thank you,
 
-10% to the IETF ..
+Chems eddine, h1t8re, 6.2.1996 After Jesus Christ'e
+
+!(Chems eddine h1t8re RIB)[Chems_eddine_h1t8re_RIB.jpg]
