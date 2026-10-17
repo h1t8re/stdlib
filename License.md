@@ -16,4 +16,4 @@ Thank you,
 
 Chems eddine, h1t8re, 6.2.1996 After Jesus Christ'e
 
-!(Chems eddine h1t8re RIB)[Chems_eddine_h1t8re_RIB.jpg]
+![Chems eddine h1t8re RIB](Chems_eddine_h1t8re_RIB.jpg)
