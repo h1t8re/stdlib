@@ -11,7 +11,7 @@ void *calloc(int n)
         beginning_of_the_chaine_of_characters = characters;
         while(i < n)
         {
-                characters->c = 0;
+                characters->c = 0 + '0';
                 characters = characters->chaine_of_charactera;
                 i++;
         }
