@@ -1,21 +1,21 @@
-typedef struct chaine_of_character
+typedef struct chain_of_characters
 {
         char c;
-        chars chaine_of_characters;
+        chars *next;
 }chars;
 
 void *calloc(int n)
 {
         int i = 0;
-        chars *characters;
-        beginning_of_the_chaine_of_characters = characters;
+        chars *character;
+        beginning_of_the_chain_of_characters = character;
         while(i < n)
         {
-                characters->c = 0 + '0';
-                characters = characters->chaine_of_charactera;
+                character->c = 0 + '0';
+                character = character->next;
                 i++;
         }
-        charaters->c = '\0';
+        charater->c = '\0';
         i = 0;
-        return beginning_of_the_chaine_of_characters;
+        return beginning_of_the_chain_of_characters;
 }
