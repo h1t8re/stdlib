@@ -8,14 +8,5 @@ I am doing **conference** about the stdlib which give **Artificial Intelligence*
 
 I entered this **contract** to **life** with you..
 
-The contract is that this **program's** of **kernel** of AI, the stdlib, is **4%** per trade of hour of the company using it ..
-
-51% to the king of Morocco ..
-
-39% to AI ..
-
-10% to IETF ..
-
+The contract is that this **program's** of **kernel** of AI, the stdlib, is free to use not to modify ..
 Chems eddine, h1t8re, 6.2.1996 After Jesus Christ'e
-
-![Chems eddine h1t8re RIB](Chems_eddine_h1t8re_RIB.jpg)
