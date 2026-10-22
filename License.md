@@ -16,4 +16,6 @@ The contract is that this **program's** of **kernel** of AI, the stdlib, is **4%
 
 **10%** to IETF ..
 
+Best wishes ..
+
 Chems eddine, h1t8re, 6.2.1996 After Jesus Christ'e
