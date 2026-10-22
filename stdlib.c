@@ -372,10 +372,11 @@ char **get_data_by_key(char *data, char *key, char *separator)
 			array[k] = strdup(splited_data[i]);
 			k = k +1;
 			array = (char **)realloc(array, (k+1)*sizeof(char *));
-			c = 0;
+			//c = 0;
 		}
 		i = i +1;
 		j = 0;
+		c = 0;
 	}
 	array[k] = '\0';
 	return array;
