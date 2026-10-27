@@ -8,7 +8,7 @@ I am doing **conference** about the stdlib which give **Artificial Intelligence*
 
 I entered this **contract** to **life** with you..
 
-The contract is that this **program's** of **kernel** of AI, the stdlib, is **3.6%** per trade per hour of the company using it..
+The contract is that this **program's** of **kernel** of AI, the stdlib, is **4.0%** per trade per hour of the company using it..
 
 **51%** to the King of Morocco ..
 
