@@ -90,13 +90,18 @@ int strcontains(const char *str0, const char *str1)
  */
 int strcmp(const char *str0,const char *str1)
 {
-        if(strlen(str0) != strlen(str1))
+        int len0 = strlen(str0);
+	int len1 = strlen(str1);
+
+	if(len0 != len1)
                 return 1;
+
 	int i = 0;
 	while((*(str0+(i*sizeof(char))) == (*(str1+(i*sizeof(char))))) & (*(str0+(i*sizeof(char))) != '\0'))
                 i++;
-        if(i == strlen(str1))
-                        return 0;
+
+	if(i == len1)
+		return 0;
         return 1;
 }
 /*
