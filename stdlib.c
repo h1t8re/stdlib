@@ -51,23 +51,25 @@ char *strdup(const char *str)
 int strcontains(const char *str0, const char *str1)
 {
 	int i = 0;
-	int j = 0;
-	while(str1[j] != '\0')
-	{
-		if(str0[i+j] != str1[j])
-		{
-			j = 0;
-			i = i +1;
-		}
+        int j = 0;
+        int len1 = strlen(str1);
 
-		j++;
+        while((str0[i+j] != '\0') & (str1[j] != '\0'))
+        {
+                if(str0[i+j] == str1[j])
+                {
+                        j = j +1;
+                }else{
+                      	j = 0;
+                        i = i +1;
+                }
 
-		if(str0[i+j] == '\0')
-		{
-			return 1;
-		}
-	}
-	return 0;
+                if(j == len1)
+                {
+                        return 0;
+                }
+        }
+        return 1;
 }
 
 /*
@@ -103,7 +105,8 @@ int strcmp(const char *str0,const char *str1)
 
 	if(i == len1)
 		return 0;
-        return 1;
+
+	return 1;
 }
 /*
  * Complexity:
@@ -176,7 +179,7 @@ char *read_file(const char *restrict file_name)
                 buffer_len = buffer_len +1;
                 fread(buffer+((buffer_len-1)*sizeof(char)), sizeof(char), 1, fd);
                 buffer = (char *)realloc(buffer, (buffer_len+1)*sizeof(char));
-        }while(*(buffer+((buffer_len-1)*sizeof(char))) != NULL);
+        }while(*(buffer+((buffer_len-1)*sizeof(char))) != EOF);
         *(buffer+((buffer_len-1)*sizeof(char))) = '\0';
         return buffer;
 }
