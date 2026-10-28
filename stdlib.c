@@ -42,7 +42,7 @@ char *strdup(const char *str)
 }
 
 /*
- * strcontains is checking if of chaine of charaters str0 is containing
+ * strcontains is checking if the chaine of charaters str0 is containing
  * another chaine of characters str1..
  * the condition is that
  * strlen(str0) > strlen(str1)
@@ -50,29 +50,30 @@ char *strdup(const char *str)
  */
 int strcontains(const char *str0, const char *str1)
 {
-        int i = 0;
-        int j = 0;
-        while(*(str0+((i+j)*sizeof(char))) != '\0')
-      	{
-		if(str0[i+j] == str1[j])
-                {
-			j++;
-                }
-		else
+	int i = 0;
+	int j = 0;
+	while(str1[j] != '\0')
+	{
+		if(str0[i+j] != str1[j])
 		{
-                        j = 0;
-                        i++;
+			j = 0;
+			i = i +1;
 		}
-                if(j == strlen(str1))
-                        return 0;
-        }
-        return 1;
+
+		j++;
+
+		if(str0[i+j] == '\0')
+		{
+			return 1;
+		}
+	}
+	return 0;
 }
 
 /*
  * The complexity of strcontians
- * if return 0 : 2.(i + strlen(str1)) + strlen(str1)
- * if return 1 : sum(i), i = i +1 until '\0' of str0
+ * if return 0 : at max 4.(i + j)
+ * if return 1 : at max 4.(i + j -1)
  *
 */
 
