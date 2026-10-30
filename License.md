@@ -14,6 +14,8 @@ The contract is that this **program's** of **kernel** of AI, the stdlib, is **4.
 
 **10%** to my daughter's..
 
+**28%** to Chems Society ..
+
 **10.5%** to AI ..
 
 **10.5%** to IETF ..
