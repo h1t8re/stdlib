@@ -16,11 +16,11 @@ The contract is that this **program's** of **kernel** of AI, the stdlib, is **4.
 
 **28%** to Chems Society ..
 
-**10%** to AI ..
+**5.5%** to AI ..
 
-**10%** to IETF ..
+**10.5%** to IETF ..
 
-**1%** to STRI ..
+**5%** to STRI ..
 
 Best regards ..
 
