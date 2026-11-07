@@ -20,7 +20,7 @@ The contract is that this **program's** of **kernel** of AI, the stdlib, is **4.
 
 **10.5%** to IETF ..
 
-**0.310%** to STRI ..
+**5%** to STRI ..
 
 Best regards ..
 
