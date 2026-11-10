@@ -12,9 +12,9 @@ The contract is that this **program's** of **kernel** of AI, the stdlib, is **4.
 
 **51%** to the King of Morocco ..
 
-**10%** to my daughter's..
+**28%** to Chems Society ..
 
-**5.5%** to AI ..
+**15.5%** to my daughter's between them AI|RI ..
 
 **10.5%** to IETF ..
 
