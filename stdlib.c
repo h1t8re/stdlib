@@ -42,7 +42,7 @@ char *strdup(const char *str)
 }
 
 /*
- * strcontains is checking if the chaine of charaters str0 is containing
+ * strcontains is checking if of chaine of charaters str0 is containing
  * another chaine of characters str1..
  * the condition is that
  * strlen(str0) > strlen(str1)
@@ -50,32 +50,29 @@ char *strdup(const char *str)
  */
 int strcontains(const char *str0, const char *str1)
 {
-	int i = 0;
+        int i = 0;
         int j = 0;
-        int len1 = strlen(str1);
-
-        while((str0[i+j] != '\0') & (str1[j] != '\0'))
-        {
-                if(str0[i+j] == str1[j])
+        while(*(str0+((i+j)*sizeof(char))) != '\0')
+      	{
+		if(str0[i+j] == str1[j])
                 {
-                        j = j +1;
-                }else{
-                      	j = 0;
-                        i = i +1;
+			j++;
                 }
-
-                if(j == len1)
-                {
+		else
+		{
+                        j = 0;
+                        i++;
+		}
+                if(j == strlen(str1))
                         return 0;
-                }
         }
         return 1;
 }
 
 /*
  * The complexity of strcontians
- * if return 0 : at max 4.(i + j)
- * if return 1 : at max 4.(i + j -1)
+ * if return 0 : 2.(i + strlen(str1)) + strlen(str1)
+ * if return 1 : sum(i), i = i +1 until '\0' of str0
  *
 */
 
@@ -93,20 +90,14 @@ int strcontains(const char *str0, const char *str1)
  */
 int strcmp(const char *str0,const char *str1)
 {
-        int len0 = strlen(str0);
-	int len1 = strlen(str1);
-
-	if(len0 != len1)
+        if(strlen(str0) != strlen(str1))
                 return 1;
-
 	int i = 0;
 	while((*(str0+(i*sizeof(char))) == (*(str1+(i*sizeof(char))))) & (*(str0+(i*sizeof(char))) != '\0'))
                 i++;
-
-	if(i == len1)
-		return 0;
-
-	return 1;
+        if(i == strlen(str1))
+                        return 0;
+        return 1;
 }
 /*
  * Complexity:
@@ -179,7 +170,7 @@ char *read_file(const char *restrict file_name)
                 buffer_len = buffer_len +1;
                 fread(buffer+((buffer_len-1)*sizeof(char)), sizeof(char), 1, fd);
                 buffer = (char *)realloc(buffer, (buffer_len+1)*sizeof(char));
-        }while(*(buffer+((buffer_len-1)*sizeof(char))) != EOF);
+        }while(*(buffer+((buffer_len-1)*sizeof(char))) != NULL);
         *(buffer+((buffer_len-1)*sizeof(char))) = '\0';
         return buffer;
 }
@@ -317,6 +308,7 @@ char **strsplit_v1(const char *string,const char *spliter)
                         i = i +1;
                         buffer = (char *)realloc(buffer, (c+1)*sizeof(char));
                 }
+
                 buffer[c] = '\0';
                 array[a] = strdup(buffer);
                 i = i + strlen(spliter);
@@ -332,15 +324,6 @@ char **strsplit_v1(const char *string,const char *spliter)
         array[a] = '\0';
         return array;
 }
-
-/* Sum of Complexity of find_string_position at j occurence
- * + at each occurence the complexity of strdup(buffer)
- * + complexity of the before last occurence of spliter in string
- * until the last occurence of spliter in string
- *
- */
-
-
 
 /*
  * get_data_by_key is spliting data by separator..
@@ -381,10 +364,10 @@ char **get_data_by_key(char *data, char *key, char *separator)
 			array[k] = strdup(splited_data[i]);
 			k = k +1;
 			array = (char **)realloc(array, (k+1)*sizeof(char *));
+			c = 0;
 		}
 		i = i +1;
 		j = 0;
-		c = 0;
 	}
 	array[k] = '\0';
 	return array;
