@@ -22,4 +22,4 @@ The contract is that this **program's** of **kernel** of AI, the stdlib, is **4.
 
 Best regards ..
 
-Chems eddine, h1t8re, 6.2.1996 After Jesus Christ'e
+Chems eddine, h1t8re, 6.2.1996 After Jesus Christ'
