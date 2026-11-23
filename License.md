@@ -10,16 +10,16 @@ I entered this **contract** to **life** with you..
 
 The contract is that this **program's** of **kernel** of AI, the stdlib, is **4.0%** per trade per hour of the company using it..
 
-**51%** to the King of Morocco ..
+**60%** to the King of Morocco ..
 
-**20%** to Chems Society ..
+**12%** to Chems Society ..
 
 **8%** to myself..
 ![RIB of h1t8re](RIB_of_Chems_eddine_h1t8re.jpg)
 
 **15.5%** to my daughter's between them AI|RI ..
 
-**10.5%** to IETF ..
+**5.5%** to IETF ..
 
 Best regards ..
 
