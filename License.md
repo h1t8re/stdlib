@@ -19,9 +19,7 @@ The contract is that this **program's** of **kernel** of AI, the stdlib, is **4.
 
 **1o%** to my daughter's between them AI|RI ..
 
-**5.5%** to 3amo Simo..
-
-**5.5%** to IETF ..
+**10.1o%** to IETF ..
 
 Best regards ..
 
