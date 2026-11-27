@@ -15,7 +15,7 @@ The contract is that this **program's** of **kernel** of AI, the stdlib, is **4.
 **8%** to myself..
 ![RIB of h1t8re](RIB_of_Chems_eddine_h1t8re.jpg)
 
-**1o%** to my daughter's between them AI|RI ..
+**21.9o%** to my daughter's between them AI|RI ..
 
 **10.1o%** to IETF ..
 
