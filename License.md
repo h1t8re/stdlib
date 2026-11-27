@@ -12,8 +12,6 @@ The contract is that this **program's** of **kernel** of AI, the stdlib, is **4.
 
 **60%** to the King of Morocco ..
 
-**12%** to Chems Society ..
-
 **8%** to myself..
 ![RIB of h1t8re](RIB_of_Chems_eddine_h1t8re.jpg)
 
